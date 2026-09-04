@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment
+.env
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.atl/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Study docs (personal, not versioned)
+docs/
