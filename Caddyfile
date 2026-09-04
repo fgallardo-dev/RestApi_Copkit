@@ -1,0 +1,5 @@
+# Reverse proxy in front of the API. Caddy is the only service exposed to the
+# outside; the API itself is not published on a host port.
+:80 {
+	reverse_proxy api:8000
+}
