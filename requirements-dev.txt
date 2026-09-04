@@ -1,0 +1,12 @@
+# Dev & test tooling. Install with: pip install -r requirements-dev.txt
+-r requirements.txt
+
+pytest==8.3.4
+pytest-asyncio==0.25.0
+httpx==0.28.1
+testcontainers==4.9.0
+ruff==0.8.4
+mypy==1.14.0
+pre-commit==4.0.1
+
+# gitleaks is a binary, not a pip package — install via brew: `brew install gitleaks`
